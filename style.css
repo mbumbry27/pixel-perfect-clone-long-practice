@@ -1,0 +1,105 @@
+.nav__logo {
+    margin: 0px 40px ;
+    padding: 25px 25px;
+    border: none;
+    background: url(images/logo.jpg) no-repeat center;
+    width: 125px;
+    height: 45px;
+    background-size: cover;
+}
+
+img {
+    height: 65px;
+    width: 150px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav__upper {
+    position:sticky;
+    top: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-family: "Helvetica Neue", "Helvetica";
+    font-size: 14px;
+}
+
+.nav__upper a {
+    color: black;
+    margin: 5px;
+}
+
+.get-started {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+header {
+    background-color: rgba(250, 167, 0, 0.95);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(250, 167, 0, 0.95), yellow);
+}
+
+.content {
+    margin: 100px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 126px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    height: 5px;
+    padding-top: 40px;
+    padding-left: 570px;
+    }
+
+.become-member {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 7px 40px;
+    font-size: 20px;
+    margin: 130px 0 90px;
+}
+
+.footer {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px black solid;
+}
+
+.footer a {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
